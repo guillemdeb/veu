@@ -1,0 +1,18 @@
+AutotuneVoiceApp/
+├── __tests__/               # Tests unitarios
+├── android/                 # Proyecto Android
+├── ios/                     # Proyecto iOS
+├── node_modules/            # Dependencias de Node.js
+├── src/                     # Código fuente de la aplicación
+│   ├── assets/              # Recursos estáticos
+│   ├── components/          # Componentes reutilizables
+│   ├── screens/             # Pantallas de la aplicación
+│   ├── navigation/          # Configuración de navegación
+│   └── App.js               # Archivo principal de la aplicación
+├── .gitignore               # Archivos y directorios a ignorar en git
+├── app.json                 # Configuración de la aplicación
+├── babel.config.js          # Configuración de Babel
+├── index.js                 # Punto de entrada de la aplicación
+├── metro.config.js          # Configuración de Metro
+├── package.json             # Dependencias y scripts del proyecto
+└── README.md                # Descripción del proyecto
