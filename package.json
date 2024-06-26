@@ -1,18 +1,28 @@
-AutotuneVoiceApp/
-├── __tests__/               # Tests unitarios
-├── android/                 # Proyecto Android
-├── ios/                     # Proyecto iOS
-├── node_modules/            # Dependencias de Node.js
-├── src/                     # Código fuente de la aplicación
-│   ├── assets/              # Recursos estáticos
-│   ├── components/          # Componentes reutilizables
-│   ├── screens/             # Pantallas de la aplicación
-│   ├── navigation/          # Configuración de navegación
-│   └── App.js               # Archivo principal de la aplicación
-├── .gitignore               # Archivos y directorios a ignorar en git
-├── app.json                 # Configuración de la aplicación
-├── babel.config.js          # Configuración de Babel
-├── index.js                 # Punto de entrada de la aplicación
-├── metro.config.js          # Configuración de Metro
-├── package.json             # Dependencias y scripts del proyecto
-└── README.md                # Descripción del proyecto
+{
+  "name": "autotunevoiceapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.1",
+    "expo-av": "^10.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/runtime": "^7.13.10",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
